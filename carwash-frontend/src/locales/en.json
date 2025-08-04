@@ -1,0 +1,230 @@
+{
+  "appName": "Car Wash Pro",
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "currency": "$",
+    "dateFormat": "MM/DD/YYYY",
+    "timeFormat": "hh:mm A",
+    "explore": "Explore",
+     "bookNow": "Book ",
+     "now": "Now",
+    "processing": "Processing...",
+    "selectBranch": "Select a branch",
+    "selectPackage": "Select a package",
+    "selectService": "Select a service",
+    "additionalNotes": "Additional Notes",
+    "noBookings": "No bookings found",
+    "noPackages": "No packages found",
+    "remainingWashes": "Remaining Washes",
+    "expireDate": "Expire Date",
+    "actions": "Actions",
+    "discardChanges": "Discard Changes",
+    "price": "Price",
+      "delete": "Delete",
+    "customer": "Customer",
+    "senddetails": "Send Details"
+  },
+    "login": {
+            "title": "Login",
+           "adminTitle": "Admin Login",
+           "email": "Email",
+            "password": "Password",
+            "submit": "Login",
+            "loading": "Logging in...",
+            "error": "Invalid credentials",
+            "customerLink": "Customer login? Click here"
+          },
+           "register": {
+           "title": "Register",
+           "Registration": "Customer Registration",
+            "name": "Full Name",
+            "phone": "Phone Number",
+            "submit": "Register",
+            "loading": "Registering...",
+            "error": "Registration failed",
+            "role": "Choose role",
+            "branch": "Select Branch"
+          },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "adminLogin": "Admin Login",
+    "registerNow": " Now"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "services": "Services",
+    "packages": "Packages",
+    "adminDashboard": "Admin Dashboard"
+  },
+  "status": {
+    "completed": "Completed",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "confirmed": "Confirmed"
+  },
+  "home": {
+    "welcome": {
+      "mobileTitle":"Quick. It",
+      "mobileWelcome":"Welcome to",
+      "title": "Welcome to Quick. It Car Wash Pro",
+      "subtitle": "Discover our premium services and packages for your ultimate wash experience",
+      "log": "Register "
+    },
+    "services": {
+      "services": {
+        "title": "Services",
+        "description": "Explore our wide range of Washing services tailored for your needs"
+      },
+      "packages": {
+        "title": "Packages",
+        "description": "Special packages combining multiple services at discounted rates"
+      },
+      "bookings": {
+        "title": "Bookings",
+        "description": "Easy online booking system for your convenience"
+      }
+    },
+    "about": {
+      "title": "Who We Are",
+      "imageAlt": "Our car wash facility",
+      "paragraph1": "We are a dedicated team of professionals committed to providing the best car wash experience. Our state-of-the-art facilities and eco-friendly products ensure your vehicle gets the care it deserves.",
+      "paragraph2": "Join us in our mission to keep your car looking its best while being kind to the environment.",
+      "paragraph3": "Experience the difference with Car Wash Pro!"
+    },
+    "servicesSection": {
+      "title": "Our Services",
+      "suv": {
+        "title": "SUV Cars",
+        "description": "Professional cleaning and detailing for your SUV vehicles",
+        "image": "https://i.ibb.co/CpYbC5YY/5d05aa0ec604de046ac8f600c67062d3.jpg",
+        "alt": "SUV car washing"
+      },
+      "motorcycle": {
+        "title": "Motorcycle",
+        "description": "Specialized cleaning for motorcycles and bikes",
+        "image": "https://i.ibb.co/MDq9KPbT/Instagram.jpg",
+        "alt": "Motorcycle cleaning"
+      },
+      "exotic": {
+        "title": "Exotic Cars",
+        "description": "Premium service for luxury and exotic vehicles",
+        "image": "https://i.ibb.co/V0K4Y9Xs/Alfa-Romeo-Giulia-restyling-in-arrivo-nel-2021-ecco-come-sar.jpg",
+        "alt": "Exotic car detailing"
+      }
+    }
+  },
+    "booking": {
+    "title": "Book Your Wash",
+    "serviceTitle": "Book a Service",
+    "branch": "Branch",
+    "selectBranch": "Select a branch",
+    "selectService": "Select a service",
+    "selectPackage": "Select a package",
+    "date": "Date",
+    "time": "Time",
+    "notes": "Notes",
+    "additionalNotes": "Additional Notes",
+    "specialRequests": "Any special requests or notes...",
+    "faildBook":"Failed to create booking. Please try again.",
+    "successBook":"Booking created successfully",
+    "bookSercive":"Book Service",
+    "processing":"Processing...",
+    "bookNow":"Book Now"
+  },
+  
+  "dashboard": {
+    "title": "My Dashboard",
+    "bookings": "Your Bookings",
+    "packages": "Your Packages",
+    "recentBookings": "Recent Bookings",
+    "recentPackages": "Recent Packages",
+    "branchNumber": "Branch Number",
+    "status": "Status",
+     "noWashesLeft": "No washes left",
+     "rightNow": " Now"
+
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "totalBookings": "Total Bookings",
+    "completedBookings": "Completed Bookings",
+    "activeUsers": "Active Users",
+    "branches": "Branches",
+    "quickActions": "Quick Actions",
+    "manageBookings": "Manage Bookings",
+    "manageServices": "Manage Services",
+    "managePackages": "Manage Packages",
+    "manageBranches": "Manage Branches",
+    "viewBookings": "View Bookings",
+    "loading": "Loading dashboard...",
+    "totalWashes": "Total Washes",
+    "paymentstatus": "Payment Status",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "bookings": "Bookings",
+    "userPackages": "User Packages"
+
+  },
+  "adminbookings": {
+     "manageBooking": "Manage",
+    "bookings": "Bookings",
+    "userPackages": "User Packages",
+    "branch": "Branch:",
+    "allBranches": "All Branches",
+    "status": "Status:",
+    "allStatuses": "All Statuses",
+    "customer": "Customer",
+    "service": "Service",
+    "deleteConfirmation": "Are you sure you want to delete this booking?",
+    "enterPassword": "Please enter the deletion password:",
+    "incorrectPassword": "Incorrect deletion password!",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "completed": "Completed"
+
+
+  },
+  "packages": {
+    "availablePackages": "Available Packages",
+    "reserveNow": "Reserve Now",
+    "washes": " Washes",
+    "redirecting toBooking": "Redirecting to booking...",
+    "packages":"Packages",
+    "remainingWashes":"Remaining Washes",
+    "expireDate":"Expire Date",
+    "actions":"Actions",
+    "useyourcurrentpackage":"Please use your current package first",
+    "noPackagesFound": "No packages found",
+    "checkConnection": "Check your connection and try again"
+  },
+  "services": {
+    "title": "our Services",
+    "availableServices": "Available Services",
+    "reserveNow": "Reserve Now",
+    "serviceDetails": "Service Details",
+    "description": "Description",
+    "price": "Price",
+    "duration": "Duration",
+    "bookNow": "Book Now"
+  },
+  "profile": {
+    "title": "My Profile",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "editButton": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "familyMembers": "Family Members",
+    "addFamilyMember": "Add Family Member",
+    "relationship": "Relationship",
+    "notProvided": "Not provided"
+  }
+}

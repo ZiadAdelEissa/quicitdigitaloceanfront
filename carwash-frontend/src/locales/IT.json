@@ -1,0 +1,234 @@
+{
+  "appName": "Lavaggio Auto Pro",
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "currency": "€",
+    "dateFormat": "GG/MM/AAAA",
+    "timeFormat": "HH:mm",
+    "explore": "Esplora",
+     "bookNow": "Prenota ",
+    "processing": "Elaborazione...",
+    "selectBranch": "Seleziona una filiale",
+    "selectPackage": "Seleziona un pacchetto",
+    "selectService": "Seleziona un servizio",
+    "additionalNotes": "Note Aggiuntive",
+    "noBookings": "Nessuna prenotazione trovata",
+    "noPackages": "Nessun pacchetto trovato",
+    "remainingWashes": "Lavaggi Rimasti",
+    "expireDate": "Data di Scadenza",
+    "actions": "Azioni",
+    "discardChanges": "Annulla Modifiche",
+    "price": "Prezzo",
+     "delete": "Elimina",
+    "customer": "Cliente",
+    "senddetails": "Invia Dettagli"
+  },
+  "login": {
+    "title": "Accesso",
+    "adminTitle": "Accesso Amministratore",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Accedi",
+    "loading": "Accesso in corso...",
+    "error": "Credenziali non valide",
+    "customerLink": "Accesso cliente? Clicca qui"
+  },
+
+  "auth": {
+    "login": "Accedi",
+    "logout": "Esci",
+    "register": "Registrati",
+    "adminLogin": "Accesso Amministratore",
+    "registerNow": " ora"
+  },
+  "register": {
+    "title": "Registrazione",
+    "Registration": "Registrazione Cliente",
+    "name": "Nome completo",
+    "phone": "Numero di telefono",
+    "submit": "Registrati",
+    "loading": "Registrazione in corso...",
+    "error": "Registrazione fallita",
+    "role": "Scegli il ruolo",
+    "branch": "Seleziona Filiale"
+  },
+  "navigation": {
+    "dashboard": "Cruscotto",
+    "profile": "Profilo",
+    "services": "Servizi",
+    "packages": "Pacchetti",
+    "adminDashboard": "Pannello di Controllo"
+  },
+  "status": {
+    "status": "Stato",
+    "completed": "Completato",
+    "pending": "In attesa",
+    "cancelled": "Annullato",
+    "confirmed": "Confermato"
+  },
+  "home": {
+    "welcome": {
+      "mobileTitle":"Quick. It",
+      "mobileWelcome":"Benvenuti in",
+      "title": "Benvenuti in Quick. It Lavaggio Auto Pro",
+      "subtitle": "Scopri i nostri servizi premium e pacchetti per un'esperienza di lavaggio eccezionale",
+      "log": "Registrati "
+    },
+    "services": {
+      "services": {
+        "title": "Servizi",
+        "description": "Esplora la nostra vasta gamma di servizi su misura per le tue esigenze"
+      },
+      "packages": {
+        "title": "Pacchetti",
+        "description": "Pacchetti speciali che combinano più servizi a tariffe scontate"
+      },
+      "bookings": {
+        "title": "Prenotazioni",
+        "description": "Sistema di prenotazione online semplice e conveniente"
+      }
+    },
+    "about": {
+      "title": "Chi Siamo",
+      "imageAlt": "Il nostro impianto di lavaggio auto",
+      "paragraph1": "Siamo un team di professionisti dedicati a fornire la migliore esperienza di lavaggio auto. Le nostre strutture all'avanguardia e prodotti ecologici garantiscono alla tua auto le cure che merita.",
+      "paragraph2": "Unisciti a noi nella nostra missione di mantenere la tua auto al meglio rispettando l'ambiente.",
+      "paragraph3": "Prova la differenza con Lavaggio Auto Pro!"
+    },
+    "servicesSection": {
+      "title": "I Nostri Servizi",
+      "suv": {
+        "title": "SUV",
+        "description": "Pulizia e dettagli professionali per veicoli SUV",
+        "image": "https://i.ibb.co/CpYbC5YY/5d05aa0ec604de046ac8f600c67062d3.jpg",
+        "alt": "Lavaggio SUV"
+      },
+      "motorcycle": {
+        "title": "Moto",
+        "description": "Pulizia specializzata per motocicli",
+        "image": "https://i.ibb.co/MDq9KPbT/Instagram.jpg",
+        "alt": "Pulizia moto"
+      },
+      "exotic": {
+        "title": "Auto Esotiche",
+        "description": "Servizio premium per veicoli di lusso ed esotici",
+        "image": "https://i.ibb.co/V0K4Y9Xs/Alfa-Romeo-Giulia-restyling-in-arrivo-nel-2021-ecco-come-sar.jpg",
+        "alt": "Dettaglio auto esotiche"
+      }
+    }
+  },
+  "booking": {
+    "title": "Prenota il Tuo Lavaggio",
+    "serviceTitle": "Prenota un Servizio",
+    "branch": "Seleziona una Filiale",
+   "selectBranch": "Seleziona una filiale",
+    "selectService": "Seleziona un servizio",
+    "selectPackage": "Seleziona un pacchetto",
+    "date": "Data",
+    "time": "Ora",
+    "notes": "Note",
+    "additionalNotes": "Note Aggiuntive",
+    "booked": "Prenotato",
+    "specialRequests": "Qualsiasi richiesta speciale o note...",
+    "faildBook":"Prenotazione non riuscita. Riprova.",
+    "successBook":"Prenotazione effettuata con successo",
+    "bookSercive":"Prenota Servizio",
+    "processing":" Elaborazione...",
+    "bookNow":" Prenota Ora"
+  },
+   "admin": {
+    
+    "dashboard": "Pannello di Controllo Amministratore",
+    "users": " Utenti",
+    "bookings": "Prenotazioni",
+    "packages": "Pacchetti",
+    "services": "Servizi",
+    "branches": "Filiali",
+    "addUser": "Aggiungi Utente",
+    "addService": " Aggiungi Servizio",
+    "addPackage": "Aggiungi Pacchetto",
+    "addBranch": "Aggiungi Filiale",
+     "totalBookings": "Prenotazioni Totali",
+    "completedBookings": "Prenotazioni Completate",
+    "activeUsers": " Utenti Attivi",
+    "totalwashes": "Lavaggi Totali",
+    "remainingWashes": "Lavaggi Rimasti",
+    "expireDate": "Data di Scadenza",
+    "packageexpire": "Pacchetto Scaduto",
+    "manageBookings": "Gestisci Prenotazione",
+    "managePackages": "Gestisci Pacchetti",
+    "manageBranches": "Gestisci Filiali",
+    "viewBookings": "View Bookings",
+      "title": "Pannello di Controllo",
+    "quickActions": "Azioni Rapide",
+    "manageServices": "Gestisci Servizi",
+    "loading": "Caricamento pannello...",
+    "totalWashes": "Lavaggi Totali",
+     "paymentstatus": "Stato di Pagamento",
+    "paid": "Pagato",
+    "unpaid": "Non Pagato",
+    "userPackages": "Pacchetti Utente"
+  },
+  "adminbookings": {
+    "manageBooking": "Gestisci",
+    "bookings": "Prenotazioni",
+    "userPackages": "Pacchetti Utenti",
+    "branch": "Filiale:",
+    "allBranches": "Tutte le filiali",
+    "status": "Stato:",
+    "allStatuses": "Tutti gli stati",
+    "customer": "Cliente",
+    "service": "Servizio",
+    "deleteConfirmation": "Sei sicuro di voler eliminare questa prenotazione?",
+    "enterPassword": "Inserisci la password di eliminazione:",
+    "incorrectPassword": "Password errata!"
+  },
+   "dashboard": {
+    "title": "La Mia Dashboard",
+    "bookings": "Le Tue Prenotazioni",
+    "packages": "I Tuoi Pacchetti",
+    "recentBookings": "Prenotazioni Recenti",
+    "recentPackages": "Pacchetti Recenti",
+    "branchNumber": "Numero Filiale",
+    "status": "Stato",
+    "rightNow": "Ora",
+    "noWashesLeft": "Nessun lavaggio rimasto"
+  },
+   "packages": {
+    "availablePackages": "Pacchetti Disponibili",
+    "reserveNow": "Prenota Ora",
+    "washes": " Lavaggi",
+    "redirecting toBooking": "Reindirizzando alla prenotazione...",
+    "packages":"Pacchetti",
+    "remainingWashes":"Lavaggi Rimasti",
+    "expireDate":"Data di Scadenza",
+    "actions":"Azioni",
+    "useyourcurrentpackage":"Si prega di utilizzare prima il pacchetto attuale",
+    "noPackagesFound": "Nessun pacchetto trovato"
+  },
+  "services": {
+     "title": "Servizi",
+    "availableServices": "Servizi Disponibili",
+    "serviceDetails": "Dettagli Servizio",
+    "description": "Descrizione",
+    "price": "Prezzo",
+    "duration": "Durata",
+    "bookNow": "Prenota Ora"
+  },
+  "profile": {
+    "title": "Il Mio Profilo",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "address": "Indirizzo",
+    "editButton": "Modifica Profilo",
+    "saveChanges": "Salva Modifiche",
+    "cancel": "Annulla",
+    "familyMembers": "Membri della Famiglia",
+    "addFamilyMember": "Aggiungi Membro",
+    "relationship": "Relazione",
+    "notProvided": "Non fornito"
+  }
+}
