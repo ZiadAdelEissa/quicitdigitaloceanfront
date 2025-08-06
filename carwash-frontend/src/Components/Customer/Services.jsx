@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import { getServices } from "../services/api.js";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom"; // Import useNavigate
 import Loader from "../loaders/Loader.jsx";
 import { gsap } from "gsap";
 import { useTranslation } from "react-i18next";
@@ -9,6 +9,8 @@ export default function Services() {
   const [loading, setLoading] = useState(true);
   const titleRef = useRef(null);
   const { t } = useTranslation();
+  const navigate = useNavigate(); // Initialize useNavigate
+
   useLayoutEffect(() => {
     // Only animate the title if it exists
     if (titleRef.current) {
@@ -32,6 +34,10 @@ export default function Services() {
     };
     fetchServices();
   }, []);
+
+  const handleBookNow = (service) => {
+    navigate('/serviceBooking', { state: { selectedService: service } });
+  };
 
   if (loading) return <Loader />;
 
@@ -79,12 +85,12 @@ export default function Services() {
                 ))}
               </ul>
 
-              <Link
-                to={`/serviceBooking`}
+              <button
+                onClick={() => handleBookNow(service)} // Use onClick with handleBookNow
                 className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
               >
                 {t("services.bookNow")}
-              </Link>
+              </button>
             </div>
           ))}
         </div>
