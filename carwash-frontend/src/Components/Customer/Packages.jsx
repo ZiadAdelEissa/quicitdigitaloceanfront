@@ -49,8 +49,8 @@ export default function Packages() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <div className="ml-3">
-              <span className="font-semibold text-green-100">{response.data.message}</span>
-              <p className="mt-1 text-sm text-green-200">{t("packages.redirecting toBooking")}</p>
+              <h1 className="font-semibold text-green-100">{response.data.message}</h1>
+              <p className="mt-1 text-sm text-green-200">{t("packages.redirectingtoBooking")}</p>
             </div>
           </div>,
           { autoClose: 3000 }
