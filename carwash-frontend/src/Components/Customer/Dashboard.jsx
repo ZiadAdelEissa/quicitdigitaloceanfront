@@ -202,7 +202,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div ref={comp} className="bg-[#171717] p-4 md:p-6 flex flex-col justify-around items-center gap-6  w-full h-screen">
+    <div ref={comp} className="bg-[#171717] p-6 md:p-4 flex flex-col justify-around items-center gap-6  w-full ">
       <h1 className="mt-24 text-4xl md:text-6xl bg-gradient-to-r from-orange-400 to-pink-600 inline-block text-transparent bg-clip-text font-bold tracking-tight">
         {t('dashboard.title')}
       </h1>
@@ -233,7 +233,7 @@ export default function Dashboard() {
       </div>
 
       {/* Bookings Table */}
-      <div ref={bookingsTableRef} className="w-full max-w-6xl overflow-x-auto">
+      <div ref={bookingsTableRef} className="w-full max-w-6xl overflow-x-scroll">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold text-gray-700 flex items-center">
             <FiCalendar className="mr-2" /> {t('dashboard.recentBookings')}
@@ -271,7 +271,7 @@ export default function Dashboard() {
       </div>
 
       {/* Packages Table */}
-      <div ref={packagesTableRef} className="w-full max-w-6xl overflow-x-auto mt-8">
+      <div ref={packagesTableRef} className="w-full max-w-6xl overflow-x-scroll mt-8">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold text-gray-700 flex items-center">
             <FiPackage className="mr-2" /> {t('dashboard.recentPackages')}
