@@ -202,10 +202,13 @@ export default function Dashboard() {
   }
 
   return (
-    <div ref={comp} className="bg-[#171717] p-4 md:p-6 flex flex-col justify-around items-center gap-6 mt-[99px] w-full">
+    <div ref={comp} className="bg-[#171717] p-4 md:p-6 flex flex-col justify-around items-center gap-6  w-full h-screen">
+      <div className="headtitle  mt-[99px]">
+
       <h1 className="text-4xl md:text-6xl bg-gradient-to-r from-orange-400 to-pink-600 inline-block text-transparent bg-clip-text font-bold tracking-tight">
         {t('dashboard.title')}
       </h1>
+      </div>
 
       <div ref={statsRef} className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full max-w-6xl">
         <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl shadow-lg border border-blue-200 text-center transition-all hover:shadow-xl hover:scale-[1.02]">

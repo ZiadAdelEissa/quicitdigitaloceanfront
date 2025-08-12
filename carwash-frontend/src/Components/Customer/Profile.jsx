@@ -99,8 +99,11 @@ export default function Profile() {
         pauseOnHover
         theme="dark"
       />
-      
-      <div className=" max-sm:flex max-sm:flex-col max-sm:items-center max-w-6xl mx-auto mt-30 md:mt-24">
+      {/* mobile view weelcome message  */}
+      <div className="pmwelcome sticky mt-[90px] flex flex-wrap justify-evenly sm:hidden gap-[30px] items-center w-full h-36 rounded-b-[90px] bg-[#6a6a6a00] backdrop-blur-xl drop-shadow-blue-900 animate-(--animate-fade-in-scale) font-(--font-hand) " >
+        <p className="flex flex-wrap gap-20 font-playwrite text-2xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 h-16  text-transparent bg-clip-text animate-(--animate-fade-in2-scale) ">Welcome <span>{profile?.name || 'N/A'}</span></p>
+        </div>
+      <div className="  max-w-6xl mx-auto mt-30 md:mt-24 ">
         {/* Profile Header */}
               <img src="https://i.ibb.co/mFSmqjCg/pexels-tima-miroshnichenko-6873123.jpg" alt="Car Wash" className=" fixed top-0 left-0 w-full h-full object-cover  -z-10" />
 
@@ -109,7 +112,7 @@ export default function Profile() {
           {!editMode && (
             <button
               onClick={() => setEditMode(true)}
-              className="flex items-center gap-2 px-6 py-3 bg-[#009b49] hover:bg-[#007a3a] text-white font-medium rounded-full transition-all duration-300 transform hover:scale-105"
+              className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 shadow-lg hover:shadow-indigo-500/50 text-white  rounded-xl hover:scale-105 transition-transform"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +183,7 @@ export default function Profile() {
             <div className="flex gap-4">
               <button
                 type="submit"
-                className=" bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 shadow-lg hover:shadow-indigo-500/50 text-white px-4 py-2 rounded-lg hover:scale-105 transition-transform text-white font-medium rounded-full transition-all duration-300"
+                className=" bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 shadow-lg hover:shadow-indigo-500/50 text-white px-4 py-2 rounded-lg hover:scale-105 transition-transform font-medium duration-300"
               >
                 {t("profile.saveChanges")}
               </button>
@@ -198,7 +201,8 @@ export default function Profile() {
             </div>
           </form>
         ) : (
-          <div className="bg-gray-900/80 drop-shadow-2xl  backdrop-blur-md p-6 rounded-xl shadow-lg mb-8 transition-all duration-300 hover:shadow-xl hover:shadow-[#009b49]/10">
+          <div className=" flex flex-col  bg-gray-900/80 drop-shadow-2xl  backdrop-blur-md p-6 rounded-xl shadow-lg mb-8 transition-all duration-300 hover:shadow-xl hover:shadow-[#009b49]/10">
+            <h1 className="text-2xl text-white mb-5">Profile Details </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-1">
                 <h3 className="text-sm font-medium text-[#b4b4b4]">{t("profile.name")}</h3>
@@ -211,7 +215,7 @@ export default function Profile() {
               <div className="space-y-1">
                 <h3 className="text-sm font-medium text-[#b4b4b4]">{t("profile.phone")}</h3>
                 <p className="text-lg text-white">
-                  {profile?.phone || <span className="text-[#7d7d7d]">{t("profile.notProvided")}</span>}
+                  {profile?.phone || <span className=" text-white">{t("profile.notProvided")}</span>}
                 </p>
               </div>
               {/* <div className="space-y-1">

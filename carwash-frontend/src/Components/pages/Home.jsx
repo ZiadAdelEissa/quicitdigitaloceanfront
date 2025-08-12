@@ -196,7 +196,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    
+    {/* Mobileview */}
       <div className="MobileContent flex flex-col items-center p-3 lg:hidden fixed bottom-0 w-full h-[350px]  lg:w-[500px] lg:h-[400px] sm:hidden rounded-t-[90px] bg-gray-900/80 backdrop-blur-md ">
       {/* <div className="img">
               <img src="https://i.ibb.co/mFSmqjCg/pexels-tima-miroshnichenko-6873123.jpg" alt="Car Wash" className=" fixed top-0 left-0 w-full h-full object-cover  z-0" />

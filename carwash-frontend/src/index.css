@@ -1,6 +1,6 @@
 @import "tailwindcss";
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif,"Playwrite HU", sans-serif,"Edu NSW ACT Hand", cursive;
   background-color: #f0f0f0;
  
   margin: 0;
@@ -31,3 +31,19 @@ body{
   flex-direction: row-reverse;
 }
 /* GSAP will handle most animations */
+@theme {
+   --font-cursive: "Edu NSW ACT Cursive", cursive;
+  --font-playwrite: "Playwrite HU", sans-serif;
+  /* the theme variable defines the animation shorthand:
+     <name> <duration> <timing-function> <other> */
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  --animate-fade-in2-scale: fade-in2-scale 0.5s ease-out;
+  @keyframes fade-in-scale {
+    0%   { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes fade-in2-scale {
+    0% {opacity: 0; transform: scale(0);}
+    100% {opacity: 1;transform:scale(1);}
+  }
+}
