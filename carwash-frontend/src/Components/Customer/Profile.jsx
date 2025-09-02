@@ -100,8 +100,8 @@ export default function Profile() {
         theme="dark"
       />
       {/* mobile view weelcome message  */}
-      <div className="pmwelcome sticky mt-[90px] flex flex-wrap flex-col justify-evenly sm:hidden gap-[30px] items-center w-full h-36 rounded-b-[60px] bg-[#6a6a6a00] backdrop-blur-xl drop-shadow-blue-900 animate-(--animate-fade-in-scale) font-(--font-hand) " >
-        <p className="flex flex-wrap gap-20 font-playwrite text-2xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 h-16  text-transparent bg-clip-text animate-(--animate-fade-in2-scale) ">Welcome <span>{profile?.name || 'N/A'}</span></p>
+      <div className="pmwelcome sticky mt-[90px] flex flex-wrap   sm:hidden gap-[30px] items-center w-full h-36 rounded-b-[60px] bg-[#6a6a6a00] backdrop-blur-xl drop-shadow-blue-900 animate-(--animate-fade-in-scale)  " >
+        <p className="flex flex-wrap  gap-20 font-playwrite text-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 h-16  text-transparent bg-clip-text animate-(--animate-fade-in2-scale) ">Welcome <span>{profile?.name || 'N/A'}</span></p>
         </div>
       <div className="  max-w-6xl mx-auto mt-30 md:mt-24 ">
         {/* Profile Header */}
