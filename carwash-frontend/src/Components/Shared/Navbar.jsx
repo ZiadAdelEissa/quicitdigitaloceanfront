@@ -38,7 +38,7 @@ export default function Navbar() {
         <>
             <nav
                 ref={comp}
-                className="bg-gray-900/80 text-white p-4 fixed top-0 w-full z-30 backdrop-blur-md border-b border-gray-700/50"
+                className="bg-[#6867671e] text-white p-4 fixed top-0 w-full z-30 backdrop-blur-md border-b border-gray-700/50"
             >
                 <div className="container mx-auto flex justify-between items-center">
                     {/* Mobile menu button */}
@@ -64,7 +64,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link to="/" className="text-2xl font-bold  bg-gradient-to-r from-orange-400 to-pink-600 bg-clip-text text-transparent">
                         {/* VELOCE <span className="text-white">CarWash</span> */}
-                        <img src="https://i.ibb.co/5gxBgtVR/quiq-it-logo.jpg"  className="w-[75px] h-[75px] rounded-3xl " alt="logo"/>
+                        <img src="https://i.ibb.co/nqCD67pF/quicklogo-removebg-preview.png"  className="w-[75px] h-[75px] rounded-3xl " alt="logo"/>
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -141,13 +141,13 @@ export default function Navbar() {
                                     </svg>
                                     {t('auth.register')}
                                 </Link>
-                                <Link to="/admin/login" className={`${navButtonClass} ${secondaryButtonClass}`}>
+                                {/* <Link to="/admin/login" className={`${navButtonClass} ${secondaryButtonClass}`}>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                         <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                                         <circle cx="12" cy="7" r="4"></circle>
                                     </svg>
                                     {t('auth.adminLogin')}
-                                </Link>
+                                </Link> */}
                             </>
                         )}
                         <LanguageSwitcher className="ml-2" />
@@ -162,7 +162,7 @@ export default function Navbar() {
                         className="absolute inset-0 bg-black/70 backdrop-blur-sm" 
                         onClick={() => setOpen(false)}
                     />
-                    <div className="absolute top-0 left-0 h-full w-3/4 max-w-xs bg-gray-900/95 backdrop-blur-lg border-r border-gray-700/50 shadow-2xl transform transition-transform duration-300 ease-in-out">
+                    <div className="absolute top-0 left-0 h-full w-3/4 max-w-xs bg-[#6867671e] backdrop-blur-lg border-r border-gray-700/50 shadow-2xl transform transition-transform duration-300 ease-in-out">
                         <div className="flex flex-col h-full p-4">
                             <div className="flex justify-between items-center mb-8">
                                 <Link 
@@ -171,7 +171,7 @@ export default function Navbar() {
                                     onClick={() => setOpen(false)}
                                 >
                                     {/* Veloce<span className="text-white">CarWash</span> */}
-                                                            <img src="https://i.ibb.co/5gxBgtVR/quiq-it-logo.jpg"  className="w-[75px] h-[75px] rounded-full" alt="logo"/>
+                                                            <img src="https://i.ibb.co/nqCD67pF/quicklogo-removebg-preview.png"  className="w-[75px] h-[75px] rounded-full" alt="logo"/>
 
                                 </Link>
                                 <button 
@@ -289,7 +289,7 @@ export default function Navbar() {
                                             </svg>
                                             {t('auth.register')}
                                         </Link>
-                                        <Link 
+                                        {/* <Link 
                                             to="/admin/login" 
                                             className={`${navButtonClass} ${secondaryButtonClass} justify-start`}
                                             onClick={() => setOpen(false)}
@@ -299,7 +299,7 @@ export default function Navbar() {
                                                 <circle cx="12" cy="7" r="4"></circle>
                                             </svg>
                                             {t('auth.adminLogin')}
-                                        </Link>
+                                        </Link> */}
                                     </>
                                 )}
                                 <div className="mt-4">

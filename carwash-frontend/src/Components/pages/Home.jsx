@@ -95,7 +95,7 @@ export default function Home() {
         ref={comp}
         className=" flex flex-col justify-center items-center max-sm:mt-[80px] mt-24 gap-3"
       >
-        <h1 className="text-6xl bg-gradient-to-r from-orange-400 to-pink-600  inline-block text-transparent bg-clip-text ">
+        <h1 className="text-6xl p-3 bg-gradient-to-r from-orange-400 to-pink-600  inline-block text-transparent bg-clip-text ">
           {t('home.welcome.title')}
         </h1>
         <p className="text-xl mb-8 max-w-2xl">

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function CustomerLogin() {
   return (
-    <div className="min-h-[100vh] bg-[#171717] text-[#b4b4b4] flex items-center justify-center p-4 ">
+    <div className="min-h-[100vh] backdrop-blur-sm text-[#b4b4b4] flex items-center justify-center p-4 ">
             {/* <img src="https://i.ibb.co/mFSmqjCg/pexels-tima-miroshnichenko-6873123.jpg" alt="Logo" className=" mb-6 bg-cover bg-center absolute -z-10" /> */}
 
       <div className="w-full max-w-md">

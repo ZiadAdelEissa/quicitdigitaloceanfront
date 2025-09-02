@@ -42,7 +42,7 @@ export default function Services() {
   if (loading) return <Loader />;
 
   return (
-    <div className="min-h-[100vh] p-6 bg-[#171717] text-white ">
+    <div className="min-h-[100vh] p-6 backdrop-blur-sm text-white ">
       <div
         ref={titleRef}
         className="flex flex-col items-center justify-center text-center mb-6 mt-[80px]"

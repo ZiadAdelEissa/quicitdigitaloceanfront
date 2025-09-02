@@ -121,7 +121,7 @@ export default function Booking() {
   if (loading) return <Loader />;
 
   return (
-    <div className="flex flex-col items-center min-h-screen p-6">
+    <div className="flex flex-col backdrop-blur-sm  items-center min-h-screen p-6">
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -135,10 +135,10 @@ export default function Booking() {
         theme="colored"
       />
 
-      <div className="w-full mt-[80px] max-w-4xl">
+      <div className="w-full  mt-[80px] max-w-4xl">
         <h1 
           ref={titleRef}
-          className="text-4xl md:text-6xl font-bold mb-8 text-center bg-gradient-to-r from-orange-400 to-pink-600 text-transparent bg-clip-text"
+          className="text-4xl md:text-6xl p-3 font-bold mb-8 text-center bg-gradient-to-r from-orange-400 to-pink-600 text-transparent bg-clip-text"
         >
           {t("booking.title")}
         </h1>

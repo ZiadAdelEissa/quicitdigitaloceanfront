@@ -30,7 +30,7 @@ export default function RegisterForm() {
   }
 
   return (
-    <div className='form w-full h-full bg-[#171717]'>
+    <div className='form w-full h-full backdrop-blur-sm '>
 
     <form onSubmit={handleSubmit} className="max-w-md mx-auto p-6 bg-[#fff]  mb-5 rounded-lg shadow-md shadow-fuchsia-900 hover:shadow-gray-900  animate-fade-in mt-[130px]">
       <h2 className="text-2xl font-bold mb-6 text-center">{t("register.Registration")}</h2>

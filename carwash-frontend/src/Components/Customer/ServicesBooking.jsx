@@ -92,7 +92,7 @@ export default function ServicesBooking() {
   if (loading) return <Loader />;
 
   return (
-    <div className="flex flex-col items-center min-h-screen p-6">
+    <div className="flex flex-col  items-center min-h-screen p-6">
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -106,7 +106,7 @@ export default function ServicesBooking() {
         theme="colored"
       />
 
-      <div className="w-full mt-[80px] max-w-4xl">
+      <div className="w-full  mt-[80px] max-w-4xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center bg-gradient-to-r from-orange-400 to-pink-600 text-transparent bg-clip-text">
          {t("booking.bookSercive")}
         </h1>
