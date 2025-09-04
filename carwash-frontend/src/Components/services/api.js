@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "https://quickit.it:3500/api", 
+  baseURL: import.meta.env.VITE_API_BASE_URL || "https://quickit.it:5000/api", 
   withCredentials: true, // This ensures cookies are sent with requests
   headers: {
     "Content-Type": "application/json",
