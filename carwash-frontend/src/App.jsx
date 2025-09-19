@@ -18,9 +18,10 @@ import PackagesCRUD from "./Components/Admin/PackagesCRUD";
 import BookingsManagement from "./Components/Admin/BookingsManagement";
 import Profile from "./Components/Customer/Profile";
 import ServicesBooking from "./Components/Customer/ServicesBooking";
-import Footer from "./Components/Shared/Footer"
+import Footer from "./Components/Shared/Footer";
 import { AuthProvider } from "./context/AuthContext";
-import './i18n';
+import "./i18n";
+import AboutUs from "./Components/pages/AboutUs";
 export default function App() {
   return (
     <AuthProvider>
@@ -28,27 +29,152 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/profile" element={<><Profile /><Footer/></>} />
-          <Route path="/Services" element={<><Servicess /><Footer/></>} />
-          <Route path="/packages" element={<><Packages /><Footer/></>} />
-          <Route path="/booking" element={<><Booking /><Footer/></>} />
-          <Route path="/serviceBooking" element={<><ServicesBooking /><Footer/></>} />
-          <Route path="/register" element={<><Register /><Footer/></>} />
-          <Route path="/login" element={<><CustomerLogin /><Footer/></>} />
-          <Route path="/admin/login" element={<><AdminLogin /><Footer/></>} />
-          <Route path="/customer/dashboard" element={<><Dashboard /><Footer/></>} />
+          <Route
+            path="/profile"
+            element={
+              <>
+                <Profile />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/Services"
+            element={
+              <>
+                <Servicess />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/packages"
+            element={
+              <>
+                <Packages />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/booking"
+            element={
+              <>
+                <Booking />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/serviceBooking"
+            element={
+              <>
+                <ServicesBooking />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/register"
+            element={
+              <>
+                <Register />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <>
+                <CustomerLogin />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/admin/login"
+            element={
+              <>
+                <AdminLogin />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/customer/dashboard"
+            element={
+              <>
+                <Dashboard />
+                <Footer />
+              </>
+            }
+          />
           {/* <Route path="/Registers" element={<><Register />} /> */}
-          <Route path="/Registeradmin" element={<><RegisterAdmin /><Footer/></>} />
-          <Route path="/AdminDashboard" element={<><AdminDashboard /><Footer/></>} />
-          <Route path="/BranchCrud" element={<><BranchesCRUD /><Footer/></>} />
-          <Route path="/ServicesCrud" element={<><ServicesCRUD /><Footer/></>} />
-          <Route path="/PackagesCRUD" element={<><PackagesCRUD /><Footer/></>} />
+          <Route
+            path="/Registeradmin"
+            element={
+              <>
+                <RegisterAdmin />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/AdminDashboard"
+            element={
+              <>
+                <AdminDashboard />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/BranchCrud"
+            element={
+              <>
+                <BranchesCRUD />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/ServicesCrud"
+            element={
+              <>
+                <ServicesCRUD />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/PackagesCRUD"
+            element={
+              <>
+                <PackagesCRUD />
+                <Footer />
+              </>
+            }
+          />
           <Route
             path="/AdminDashboard/Bookings"
-            element={<><BookingsManagement /><Footer/></>}
+            element={
+              <>
+                <BookingsManagement />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/AboutUs"
+            element={
+              <>
+                <AboutUs />
+                <Footer />
+              </>
+            }
           />
         </Routes>
-      
       </div>
     </AuthProvider>
   );

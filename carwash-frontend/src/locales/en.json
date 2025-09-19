@@ -72,8 +72,9 @@
       "mobileTitle":"Quick. It",
       "mobileWelcome":"Welcome to",
       "title": "Welcome to Quick. It Car Wash Pro",
-      "subtitle": "Discover our premium services and packages for your ultimate wash experience",
-      "log": "Register "
+      "subtitle": "Discover our premium services and packages for your ultimate car Care experience",
+      "log": "Register ",
+      "Swipe":"Press To Login"
     },
     "services": {
       "services": {
@@ -91,10 +92,14 @@
     },
     "about": {
       "title": "Who We Are",
+      "AboutUs":"About Us",
       "imageAlt": "Our car wash facility",
       "paragraph1": "We are a dedicated team of professionals committed to providing the best car wash experience. Our state-of-the-art facilities and eco-friendly products ensure your vehicle gets the care it deserves.",
       "paragraph2": "Join us in our mission to keep your car looking its best while being kind to the environment.",
-      "paragraph3": "Experience the difference with Car Wash Pro!"
+      "paragraph3": "Experience the difference with Car Wash Pro!",
+      "paragraph11": "QUICK IT, Founded by ENG. AHMED ABOU ELNASR in 2025, is your trusted online platform for complete car care. With just a few clicks, you can book car washes, maintenance services, and exclusive packages with our authorized partners",
+      "paragraph222": "Our mission is simply to save your time while ensuring top-quality service. Backed by experienced engineers and skilled professionals, we guarantee your vehicle is Serviced to the highest standards—covering every detail so you don’t have to worry about.",
+      "paragraph333": "At QUICK IT, we believe car care should be convenient, reliable, and affordable. That’s why our pricing is designed to fit your budget while keeping your car 100% efficient, safe, and ready for the road."
     },
     "servicesSection": {
       "title": "Our Services",

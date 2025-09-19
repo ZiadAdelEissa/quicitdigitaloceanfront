@@ -42,19 +42,23 @@ export default function Packages() {
     try {
       const response = await purchasePackage(id);
 
-      if (response.data.success) {
-        toast.success(
-          <div className="flex items-start">
-            <svg className="w-6 h-6 shrink-0 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-            </svg>
-            <div className="ml-3">
-              <h1 className="font-semibold text-green-100">{response.data.message}</h1>
-              <p className="mt-1 text-sm text-green-200">{t("packages.redirectingtoBooking")}</p>
-            </div>
-          </div>,
-          { autoClose: 3000 }
-        );
+      if (response.data.success) { 
+        toast.success("🎉 Package reserved successfully " , {
+        position: "top-center",
+        autoClose: 3000
+      });
+        // (
+        //   <div className="flex items-start">
+        //     <svg className="w-6 h-6 shrink-0 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+        //     </svg>
+        //     <div className="ml-3">
+        //       <h1 className="font-semibold text-green-100">{response.data.message}</h1>
+        //       <p className="mt-1 text-sm text-green-200">packagesredirectingtoBooking</p>
+        //     </div>
+        //   </div>,
+        //   { autoClose: 3000 }
+        // );
         setTimeout(() => navigate("/booking"), 3000);
       } else {
         if (response.data.error === "ACTIVE_PACKAGE") {

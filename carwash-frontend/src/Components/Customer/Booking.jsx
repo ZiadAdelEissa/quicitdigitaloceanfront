@@ -161,7 +161,7 @@ export default function Booking() {
                   <option value="">{t("booking.selectBranch")}</option>
                   {branches.map((branch) => (
                     <option key={branch._id} value={branch._id}>
-                      {branch.name} - {branch.location}
+                      {branch.name} - <a href={branch.location} className="no-underline">Location On map</a> 
                     </option>
                   ))}
                 </select>

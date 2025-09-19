@@ -74,7 +74,8 @@
       "mobileWelcome":"Benvenuti in",
       "title": "Benvenuti in Quick. It Lavaggio Auto Pro",
       "subtitle": "Scopri i nostri servizi premium e pacchetti per un'esperienza di lavaggio eccezionale",
-      "log": "Registrati "
+      "log": "Registrati ",
+      "Swipe":"Premi per accedere"
     },
     "services": {
       "services": {
@@ -92,10 +93,15 @@
     },
     "about": {
       "title": "Chi Siamo",
+      "AboutUs":"CHI SIAMO",
       "imageAlt": "Il nostro impianto di lavaggio auto",
       "paragraph1": "Siamo un team di professionisti dedicati a fornire la migliore esperienza di lavaggio auto. Le nostre strutture all'avanguardia e prodotti ecologici garantiscono alla tua auto le cure che merita.",
       "paragraph2": "Unisciti a noi nella nostra missione di mantenere la tua auto al meglio rispettando l'ambiente.",
-      "paragraph3": "Prova la differenza con Lavaggio Auto Pro!"
+      "paragraph3": "Prova la differenza con Lavaggio Auto Pro!",
+      "paragraph11": "QUICK IT, fondata dall'ingegnere AHMED ABOU ELNASR nel 2025, è la tua piattaforma online di fiducia per la cura completa dell'auto. Con pochi clic puoi prenotare lavaggi auto, servizi di manutenzione e pacchetti esclusivi con i nostri partner autorizzati.",
+      "paragraph222": "La nostra missione è semplicemente farti risparmiare tempo garantendo al contempo un servizio di altissima qualità. Supportati da ingegneri esperti e professionisti qualificati, assicuriamo che il tuo veicolo venga curato secondo i più alti standard, coprendo ogni dettaglio così che tu non debba preoccuparti di nulla.",
+      "paragraph333": "In QUICK IT crediamo che la cura dell'auto debba essere conveniente, affidabile e accessibile. Ecco perché i nostri prezzi sono studiati per adattarsi al tuo budget mantenendo la tua auto al 100% efficiente, sicura e pronta per la strada."
+
     },
     "servicesSection": {
       "title": "I Nostri Servizi",
@@ -200,7 +206,7 @@
     "availablePackages": "Pacchetti Disponibili",
     "reserveNow": "Prenota Ora",
     "washes": " Lavaggi",
-    "redirecting toBooking": "Reindirizzando alla prenotazione...",
+    "redirectingtoBooking": "Reindirizzando alla prenotazione...",
     "packages":"Pacchetti",
     "remainingWashes":"Lavaggi Rimasti",
     "expireDate":"Data di Scadenza",
